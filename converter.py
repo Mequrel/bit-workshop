@@ -1,6 +1,13 @@
 def getText():
 	return 'Git'
 
+class Font:
+	pass
+
+class FontLoader:
+	def loadFont(slef, directory):
+		pass
+
 t=getText()
 f=FontLoader().loadFont('fancyFont/')
 d=TextDrawer()
