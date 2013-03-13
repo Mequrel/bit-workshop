@@ -1,12 +1,8 @@
+from font import FontLoader, Font
+
 def getText():
 	return 'Git'
 
-class Font:
-	pass
-
-class FontLoader:
-	def loadFont(slef, directory):
-		pass
 
 class TextDrawer:
 	def setFont(self, font):
